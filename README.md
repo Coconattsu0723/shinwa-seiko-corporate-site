@@ -27,6 +27,7 @@
 - 会社案内
 - お問い合わせ
 - プライバシーポリシー
+- 404エラーページ
 
 ## Key Features
 
@@ -59,6 +60,7 @@ FrameworkやUI Libraryを使わず、ページ構造、Component、状態管理�
 ```text
 shinwa-seiko-corporate-site/
 ├── index.html
+├── 404.html
 ├── pages/
 │   ├── technology.html
 │   ├── works.html
