@@ -10,7 +10,7 @@
 
 ## Live Site
 
-公開URLはGitHub Pagesの設定後に追記します。
+[https://coconattsu0723.github.io/shinwa-seiko-corporate-site/](https://coconattsu0723.github.io/shinwa-seiko-corporate-site/)
 
 ## Concept
 
