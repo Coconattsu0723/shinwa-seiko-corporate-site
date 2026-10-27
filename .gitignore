@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!*.example
+
+# Local design sources and review exports
+/design/
+/assets/images/common/common-contact-cta-draft.png
+/assets/images/materials/technology-material-samples.png
+
+# Internal project planning and agent instructions
+/docs/
+/AGENTS.md
+/.agents/
+/.codex/

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">SHINWA symbol</title>
+  <desc id="desc">Two precise geometric parts meet at the center to form an abstract S and a stable core.</desc>
+  <g fill="#102A43">
+    <path d="M4 8h28.5v10H14v9h18.5v10H4z"/>
+    <path d="M60 56H31.5V46H50v-9H31.5V27H60z"/>
+  </g>
+</svg>

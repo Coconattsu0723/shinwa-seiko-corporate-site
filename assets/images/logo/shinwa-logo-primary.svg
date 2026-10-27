@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242 74" role="img" aria-labelledby="title desc">
+  <title id="title">SHINWA 株式会社 芯和精工</title>
+  <desc id="desc">SHINWA symbol, geometric English wordmark, and Japanese company name.</desc>
+  <g fill="#102A43">
+    <path d="M4 8h28.5v10H14v9h18.5v10H4z"/>
+    <path d="M60 56H31.5V46H50v-9H31.5V27H60z"/>
+  </g>
+  <g fill="#102A43" transform="translate(80 16)">
+    <path d="M0 0h16v4H4v6h12v14H0v-4h12v-6H0z"/>
+    <path d="M27 0h4v10h8V0h4v24h-4V14h-8v10h-4z"/>
+    <path d="M54 0h4v24h-4z"/>
+    <path d="M69 24V0h4l10 15V0h4v24h-4L73 9v15z"/>
+    <path d="M98 0h4l3 17 4-11h4l4 11 3-17h4l-5 24h-5l-3-9-3 9h-5z"/>
+    <path fill-rule="evenodd" d="M135 24 143 0h6l8 24h-5l-2-6h-8l-2 6h-5Zm8.5-10h5L146 6z"/>
+  </g>
+  <text x="79" y="60" fill="#102A43" font-family="Hiragino Sans, Yu Gothic, Meiryo, sans-serif" font-size="8" font-weight="500" letter-spacing="2.4">株式会社 芯和精工</text>
+</svg>
