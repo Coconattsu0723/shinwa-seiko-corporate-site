@@ -24,7 +24,7 @@
       if (visible) visibleCount += 1;
     });
 
-    title.textContent = selected === 'all' ? '条件から、近い実績を探す。' : `${labels[selected]}の実績${visibleCount ? 'を表示中' : ''}`;
+    title.textContent = selected === 'all' ? '材料から探す' : `${labels[selected]}の加工実績`;
     count.textContent = selected === 'all' ? `${visibleCount}件の実績` : `${labels[selected]}：${visibleCount}件`;
     empty.hidden = visibleCount !== 0;
     if (consultation) consultation.hidden = visibleCount === 0;

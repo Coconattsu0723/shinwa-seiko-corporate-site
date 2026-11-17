@@ -46,15 +46,15 @@
         <section class="contact-intro" aria-labelledby="contact-title">
           <div class="contact-container"><p class="eyebrow">CONTACT</p><h1 id="contact-title">お問い合わせ</h1><p class="contact-intro__lead">まだ仕様が固まっていない段階でも構いません。分かる範囲でお知らせください。</p>
             <div class="contact-conditions">
-              <article><div><p class="eyebrow">DRAWING</p><h2>図面なしでもOK</h2><p>形状や用途の相談から始められます。</p></div><span class="contact-condition__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5M10 12h5M10 16h5"/></svg></span></article>
-              <article><div><p class="eyebrow">MATERIAL</p><h2>材質検討中でもOK</h2><p>用途や条件から候補を一緒に整理します。</p></div><span class="contact-condition__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m4 7 8-4 8 4-8 4zM4 12l8 4 8-4M4 17l8 4 8-4"/></svg></span></article>
-              <article><div><p class="eyebrow">QUANTITY</p><h2>数量未定でもOK</h2><p>試作・小ロットを含めて検討します。</p></div><span class="contact-condition__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 4 2.3v4.6L12 12 8 9.9V5.3zM7 12l4 2.3v4.6L7 21l-4-2.1v-4.6zM17 12l4 2.3v4.6L17 21l-4-2.1v-4.6z"/></svg></span></article>
+              <article><div><p class="eyebrow">DRAWING</p><h2>図面なし</h2><p>形状や用途の相談から始められます。</p></div><span class="contact-condition__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v5h5M10 12h5M10 16h5"/></svg></span></article>
+              <article><div><p class="eyebrow">MATERIAL</p><h2>材質検討中</h2><p>用途や条件から候補を一緒に整理します。</p></div><span class="contact-condition__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m4 7 8-4 8 4-8 4zM4 12l8 4 8-4M4 17l8 4 8-4"/></svg></span></article>
+              <article><div><p class="eyebrow">QUANTITY</p><h2>数量未定</h2><p>試作・小ロットを含めて検討します。</p></div><span class="contact-condition__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 4 2.3v4.6L12 12 8 9.9V5.3zM7 12l4 2.3v4.6L7 21l-4-2.1v-4.6zM17 12l4 2.3v4.6L17 21l-4-2.1v-4.6z"/></svg></span></article>
             </div>
           </div>
         </section>
 
         <section class="contact-form-section" aria-labelledby="contact-form-title">
-          <div class="contact-form-container"><p class="eyebrow">CONSULTATION FORM</p><h2 id="contact-form-title">分かる範囲からお知らせください。</h2><p class="contact-form__note">「必須」の項目だけで送信前の確認へ進めます。</p>
+          <div class="contact-form-container"><p class="eyebrow">CONSULTATION FORM</p><h2 id="contact-form-title">相談内容の入力</h2><p class="contact-form__note">「必須」の項目だけで送信前の確認へ進めます。</p>
             <div class="form-error-summary" tabindex="-1" role="alert" hidden data-error-summary><strong>入力内容を確認してください</strong><ul data-error-list></ul></div>
             <form class="contact-form" id="contact-form" novalidate data-contact-form>
               <div class="contact-form__grid">
@@ -78,12 +78,12 @@
       </div>
 
       <div data-contact-confirm hidden>
-        <section class="contact-state-hero"><div class="contact-container"><p class="eyebrow">CONTACT / CONFIRM</p><h2>入力内容をご確認ください。</h2><p>修正する場合は「入力内容を修正する」から戻れます。</p></div></section>
+        <section class="contact-state-hero"><div class="contact-container"><p class="eyebrow">CONTACT / CONFIRM</p><h2>入力内容の確認</h2><p>修正する場合は「入力内容を修正する」から戻れます。</p></div></section>
         <section class="contact-confirm-section"><div class="contact-confirm-card"><div class="contact-demo-warning"><span aria-hidden="true">ⓘ</span><strong>ポートフォリオ用デモのため、実際には送信されません。</strong></div><p class="eyebrow">ENTERED DETAILS</p><h3>入力内容</h3><dl data-confirm-details></dl><div class="contact-confirm-actions"><button class="button button--outline" type="button" data-edit-input><span>入力内容を修正する</span><span aria-hidden="true">←</span></button><button class="button button--primary" type="button" data-demo-submit><span>この内容で送信する</span><span aria-hidden="true">→</span></button></div></div></section>
       </div>
 
       <div class="contact-complete" data-contact-complete hidden>
-        <section class="contact-complete__inner" aria-labelledby="complete-title"><span class="contact-complete__check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span><p class="eyebrow eyebrow--light">CONTACT / COMPLETE</p><h2 id="complete-title">送信完了画面のデモです。</h2><p>ご入力ありがとうございました。ポートフォリオ用の画面確認のため、実際の送信・受付は行われていません。</p><div class="contact-complete__notice"><span aria-hidden="true">♢</span><strong>入力情報は保存・送信されていません。</strong></div><div class="contact-complete__actions"><a class="button button--light" href="../index.html"><span>HOMEへ戻る</span><span aria-hidden="true">→</span></a><button class="button button--outline-light" type="button" data-reset-input><span>入力画面へ戻る</span><span aria-hidden="true">→</span></button></div></section>
+        <section class="contact-complete__inner" aria-labelledby="complete-title"><span class="contact-complete__check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span><p class="eyebrow eyebrow--light">CONTACT / COMPLETE</p><h2 id="complete-title">完了画面（デモ）</h2><p>ご入力ありがとうございました。ポートフォリオ用の画面確認のため、実際の送信・受付は行われていません。</p><div class="contact-complete__notice"><span aria-hidden="true">♢</span><strong>入力情報は保存・送信されていません。</strong></div><div class="contact-complete__actions"><a class="button button--light" href="../index.html"><span>HOMEへ戻る</span><span aria-hidden="true">→</span></a><button class="button button--outline-light" type="button" data-reset-input><span>入力画面へ戻る</span><span aria-hidden="true">→</span></button></div></section>
       </div>
     </main>
 
